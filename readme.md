@@ -102,7 +102,7 @@ npm run build
 
 ![About Screenshot](./screenshots/about.png)
 
-*(Screenshots are stored inside the `/screenshots` folder in the project root.)*
+
 
 ## License
 
