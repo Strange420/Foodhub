@@ -1,0 +1,45 @@
+.home {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #F9FAFB; /* light neutral background */
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.home h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #1F2937; /* dark text */
+  font-weight: 600;
+}
+
+.food-list {
+  display: grid; /* switch to grid for better layout */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .food-list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 30px 15px;
+  }
+
+  .home h2 {
+    font-size: 1.6rem;
+  }
+
+  .food-list {
+    grid-template-columns: 1fr; /* single column on mobile */
+    justify-items: stretch;
+  }
+}

@@ -1,0 +1,124 @@
+/* ================= Header Container ================= */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: rgba(17, 24, 39, 0.95); /* semi-transparent dark */
+  color: #F9FAFB; /* light text */
+  flex-wrap: wrap;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8px); /* soft blur for modern effect */
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.3s ease;
+}
+
+/* ================= Logo ================= */
+.header .logo a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #F9FAFB;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.header .logo a:hover {
+  transform: scale(1.05);
+  color: #3B82F6; /* accent color on hover */
+}
+
+/* ================= Navigation Links ================= */
+.header nav {
+  display: flex;
+  align-items: center;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.header nav a {
+  margin-left: 20px;
+  color: #F9FAFB;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.header nav a:hover {
+  color: #3B82F6; /* accent color */
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+/* ================= Hamburger Menu ================= */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  z-index: 20;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #F9FAFB;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Transform bars into "X" when open */
+.change1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change2 {
+  opacity: 0;
+}
+
+.change3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* ================= Responsive Mobile Styles ================= */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .header nav {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 220px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: rgba(17, 24, 39, 0.95);
+    border-radius: 8px 0 0 8px;
+    box-shadow: -2px 4px 16px rgba(0,0,0,0.15);
+    padding: 0;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+
+  .header nav.open {
+    max-height: 500px;
+    padding: 10px 0;
+  }
+
+  .header nav a {
+    margin: 12px 15px;
+    font-size: 1.05rem;
+  }
+}
+
+/* ================= Optional Scroll Effects ================= */
+.header.scrolled {
+  background-color: rgba(17, 24, 39, 0.98);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Kooko",
+    "vendor": "Daavi",
+    "description": "Rich Creamy Hausa Kooko with a warm touch.",
+    "price": 20,
+    "image": "/images/1754963268941-5aotq.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Ampesi",
+    "vendor": "Eusbett",
+    "description": "Boiled plantain served with eggs, avocado, and local stews.",
+    "price": 40,
+    "image": "/images/1754942646631-4yivi.jpg"
+  },
+  {
+    "id": "3",
+    "name": "GɔBɛ",
+    "vendor": "Daavi",
+    "description": "Rich GɔBɛ and Kɔkɔɔ, perfect for breakfast.",
+    "price": 30,
+    "image": "/images/1754942254407-grmwd.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Waakye",
+    "vendor": "Daavi",
+    "description": "Delicious and rich Waakye, served with your choice of sides.",
+    "price": 35,
+    "image": "/images/1754942099699-k8vnh.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Fufu",
+    "vendor": "Eusbett",
+    "description": "Fufu with any Soup of your choice 😋",
+    "price": 50,
+    "image": "/images/1754941928771-uyu24.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Kenkey",
+    "vendor": "Eusbett",
+    "description": "Soft Kenkey served with shrimp and hot sauce.",
+    "price": 45,
+    "image": "/images/1754941720672-4ffrl.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Banku and Tilapia",
+    "vendor": "Eusbett",
+    "description": "Banku and tilapia served with spicy sauce.",
+    "price": 50,
+    "image": "/images/1754941640901-hcrcw.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Stir Fried Noodles",
+    "vendor": "Smokie's",
+    "description": "Spicy and nutritious stir-fried noodles.",
+    "price": 40,
+    "image": "/images/1754940736789-uqhb8.png"
+  },
+  {
+    "id": "9",
+    "name": "Jollof",
+    "vendor": "CS KITCHEN",
+    "description": "Spicy delicious Jollof with grilled chicken.",
+    "price": 35,
+    "image": "/images/jollof.png"
+  },
+  {
+    "id": "10",
+    "name": "Banku and Okro Soup",
+    "vendor": "Daavi",
+    "description": "Traditional Banku served with okro soup.",
+    "price": 55,
+    "image": "/images/banku-okro.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Red Red",
+    "vendor": "CS KITCHEN",
+    "description": "Black-eyed peas stew served with fried plantain.",
+    "price": 30,
+    "image": "/images/red-red.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Grilled Fish",
+    "vendor": "Smokie's",
+    "description": "Grilled tilapia served with spicy sauce and sides.",
+    "price": 60,
+    "image": "/images/grilled-fish.jpg"
+  }
+]
