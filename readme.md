@@ -29,7 +29,7 @@
 ```bash
 git clone https://github.com/yourusername/foodie.git
 cd foodie
-```
+````
 
 2. Install dependencies:
 
@@ -82,9 +82,29 @@ npm run build
 
 ## Screenshots
 
-*(Add screenshots of your app here for Home, Food List, Cart, Checkout, About pages)*
+### 🏠 Home Page
+
+![Home Screenshot](./screenshots/home.png)
+
+### 🍽️ Food List Page
+
+![Food List Screenshot](./screenshots/food-list.png)
+
+### 🛒 Cart Page
+
+![Cart Screenshot](./screenshots/cart.png)
+
+### 💳 Checkout Page
+
+![Checkout Screenshot](./screenshots/checkout.png)
+
+### ℹ️ About Page
+
+![About Screenshot](./screenshots/about.png)
+
+*(Screenshots are stored inside the `/screenshots` folder in the project root.)*
 
 ## License
 
 This project is **open-source** and available under the [MIT License](LICENSE).
-"# Foodhub" 
+
